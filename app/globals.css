@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #020617; color: #fff; }
+.card { @apply rounded-3xl border border-white/10 bg-white/[0.06] shadow-glow; }
+.btn { @apply rounded-2xl bg-blue-500 px-5 py-3 font-semibold text-white hover:bg-blue-400 transition; }
+.btn-outline { @apply rounded-2xl border border-white/15 px-5 py-3 font-semibold text-white hover:bg-white/10 transition; }
+.input { @apply w-full rounded-2xl border border-white/10 bg-slate-900 px-4 py-3 outline-none focus:border-blue-400; }
